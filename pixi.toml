@@ -4,7 +4,7 @@
 
 [project]
 name = "google-genai-feedstock"
-version = "3.46.1"
+version = "3.47.0"
 description = "Pixi configuration for conda-forge/google-genai-feedstock"
 authors = ["@conda-forge/google-genai"]
 channels = ["conda-forge"]
