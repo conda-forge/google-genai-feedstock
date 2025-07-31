@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-genai
-  version: "1.27.0"
+  version: "1.28.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_genai-${{ version }}.tar.gz
-  sha256: 15a13ffe7b3938da50b9ab77204664d82122617256f55b5ce403d593848ef635
+  sha256: e93053c02e616842679ba5ecce5b99db8c0ca6310623c55ff6245b5b1d293138
 
 build:
   number: 0
