@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-genai
-  version: "1.63.0"
+  version: 1.64.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_genai-${{ version }}.tar.gz
-  sha256: dc76cab810932df33cbec6c7ef3ce1538db5bef27aaf78df62ac38666c476294
+  sha256: 8db94ab031f745d08c45c69674d1892f7447c74ed21542abe599f7888e28b924
 
 build:
   number: 0
@@ -36,6 +36,7 @@ requirements:
     - typing_extensions >=4.11.0,<5.0.0
     - sniffio
     - distro >=1.7.0,<2
+    - aiohttp >=3.10.11
 tests:
   - python:
       imports:
